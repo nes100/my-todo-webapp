@@ -1,13 +1,6 @@
 import streamlit as st
 import functions
 
-uploaded_file = st.file_uploader(
-    "Choose your database", accept_multiple_files=False)
-if uploaded_file is not None:
-    file_name = uploaded_file
-else:
-    file_name = "DatabaseSample.xlsx"
-
 todos = functions.read()
 
 def add_todo():
