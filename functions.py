@@ -3,8 +3,8 @@ FILEPATH = "../Python/todos.txt"
 
 
 def read(filename=FILEPATH):
-    with open(filename, "r") as file_local:
-        todos_local = file_local.readlines()
+    with open(filename, "r") as file:
+        todos_local = file.readlines()
     return todos_local
 
 
