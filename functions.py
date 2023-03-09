@@ -1,5 +1,5 @@
 
-FILEPATH = "../Python/todos.txt"
+FILEPATH = "todos.txt"
 
 
 def read(filename=FILEPATH):
